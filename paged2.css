@@ -1,0 +1,61 @@
+
+
+body{
+    margin: 0;
+}
+
+.firstdiv{
+    background-image: linear-gradient(blue,rgb(0, 145, 173));
+    height: 40px;
+    padding: 40px;
+    padding-right: 100px;
+    text-align: end;
+}
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 40px;
+    border: 0;
+    box-shadow: 0;
+    transition: all 0.3s;
+    cursor: pointer;
+    background-color: rgb(2, 62, 138);
+    color: whitesmoke;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: rgb(2, 62, 138);
+    box-shadow: 0 0 9px 2px gray;
+}
+
+.seconddiv{
+    padding-top: 99px;
+    padding-bottom: 99px;
+    background-color: rgb(169, 214, 229);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.div1{
+    width: 390px;
+    background-image: linear-gradient(blue,rgb(0, 145, 173));
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 7px gray;
+    padding-bottom: 30px;
+}
+.p1{
+    color: whitesmoke;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+.p2{
+    color: whitesmoke;
+    font-size: 17px;
+    font-family: sans-serif;
+}
